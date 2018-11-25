@@ -1,0 +1,34 @@
+Algorithm: Linear Search
+Time Elapsed: 141.13800 seconds
+Average time trial over 1000 runs: 0.14114 seconds with 100000000 elements
+
+Algorithm: Linear Search
+Time Elapsed: 196.84400 seconds
+Average time trial over 1000 runs: 0.19684 seconds with 250000000 elements
+
+Algorithm: Linear Search
+Time Elapsed: 229.92900 seconds
+Average time trial over 1000 runs: 0.22993 seconds with 500000000 elements
+
+Algorithm: Binary Search
+Time Elapsed: 0.59700 seconds
+Average time trial over 1000 runs: 0.00060 seconds with 100000000 elements
+
+Algorithm: Binary Search
+Time Elapsed: 0.81500 seconds
+Average time trial over 1000 runs: 0.00081 seconds with 250000000 elements
+
+Algorithm: Binary Search
+Time Elapsed: 0.79400 seconds
+Average time trial over 1000 runs: 0.00079 seconds with 500000000 elements
+
+String Test
+Algorithm: Linear Search
+Time Elapsed: 1.95300 seconds
+Average time trial over 1000 runs: 0.00195 seconds with 450000 elements
+
+String Test
+Algorithm: Binary Search
+Time Elapsed: 0.84200 seconds
+Average time trial over 1000 runs: 0.00084 seconds with 450000 elements
+

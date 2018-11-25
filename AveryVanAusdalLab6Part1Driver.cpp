@@ -1,10 +1,10 @@
 //Author:               Avery Vanausdal
 //Assignment Number:    Lab 6
-//File Name:			driver.cpp
+//File Name:			AveryVanAusdalLab6Part1Driver.cpp
 //Course/Selection:     COSC 2436 Section 003
 //Due Date:             11/25/18
 //Instructor:           Ku, Bernard
-//Description:			
+//Description:			Allows user input testing of binarySearch and linearSearch using menus.
 
 #include "linearSearch.cpp"
 #include "binarySearch.cpp"
@@ -71,12 +71,12 @@ void linearSearchRun()
 int main()
 {
 	cout<<"Welcome to the search driver!\n";
-	int sortChoice;
+	int searchChoice;
 	int dataChoice;
 	while (true)
 	{
-		sortChoice = get_input<int>("What type of search would you like to use?\n1) Binary\n2) Linear\n3) Exit\n","Please enter an integer between 1 and 3.\n\n");
-		switch(sortChoice)
+		searchChoice = get_input<int>("What type of search would you like to use?\n1) Binary\n2) Linear\n3) Exit\n","Please enter an integer between 1 and 3.\n\n");
+		switch(searchChoice)
 		{
 			case 1:
 			{
@@ -146,19 +146,27 @@ What type of data are you searching?
 2) Strings
 3) Exit
 1
-How many items are you searching? 4
+How many items are you searching? 8
 #0: 1
-#1: 2
-#2: 7
-#3: 3
-What are you looking for? 3
+#1: 5
+#2: 9
+#3: 12
+#4: 15
+#5: 21
+#6: 29
+#7: 31
+What are you looking for? 12
 Sorted array is:
 #0: 1
-#1: 2
-#2: 3
-#3: 7
+#1: 5
+#2: 9
+#3: 12
+#4: 15
+#5: 21
+#6: 29
+#7: 31
 
-3 found at position 2!
+12 found at position 3!
 
 What type of search would you like to use?
 1) Binary
@@ -170,17 +178,38 @@ What type of data are you searching?
 2) Strings
 3) Exit
 1
-How many items are you searching? 5
-#0: 23
-#1: dwadsd
-Please enter a integer instead.
-23123
-#2: 32
-#3: 2
-#4: 5
-What are you looking for? 23
+How many items are you searching? 8
+#0: 1
+#1: 5
+#2: 9
+#3: 12
+#4: 15
+#5: 21
+#6: 29
+#7: 31
+What are you looking for? 29
 
-23 found at position 0!
+29 found at position 6!
+
+What type of search would you like to use?
+1) Binary
+2) Linear
+3) Exit
+2
+What type of data are you searching?
+1) Integers
+2) Strings
+3) Exit
+2
+How many items are you searching? 5
+#0: david
+#1: john
+#2: josh
+#3: mason
+#4: richard
+What are you looking for? josh
+
+josh found at position 2!
 
 What type of search would you like to use?
 1) Binary
@@ -193,41 +222,20 @@ What type of data are you searching?
 3) Exit
 2
 How many items are you searching? 5
-#0: dwal
-#1: book
-#2: door
-#3: dog
-#4: line
-What are you looking for? dog
+#0: john
+#1: david
+#2: josh
+#3: mason
+#4: richard
+What are you looking for? richard
 Sorted array is:
-#0: book
-#1: dog
-#2: door
-#3: dwal
-#4: line
+#0: david
+#1: john
+#2: josh
+#3: mason
+#4: richard
 
-dog found at position 1!
-
-What type of search would you like to use?
-1) Binary
-2) Linear
-3) Exit
-2
-What type of data are you searching?
-1) Integers
-2) Strings
-3) Exit
-2
-How many items are you searching? 6
-#0: dwadk
-#1: wacka
-#2: pacman
-#3: cats
-#4: misc
-#5: headphones
-What are you looking for? misc
-
-misc found at position 4!
+richard found at position 4!
 
 What type of search would you like to use?
 1) Binary
@@ -236,6 +244,6 @@ What type of search would you like to use?
 3
 Thank you, goodbye!
 --------------------------------
-Process exited after 151.7 seconds with return value 0
+Process exited after 126.2 seconds with return value 0
 Press any key to continue . . .
 */
